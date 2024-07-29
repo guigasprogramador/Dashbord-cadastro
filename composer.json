@@ -1,0 +1,22 @@
+{
+    "name": "guigas12/cadastro-clientes",
+    "description": "Sistema de cadastro de clientes",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guigas12\\CadastroClientes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Saraiva",
+            "email": "guigasprogramador@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.6"
+    }
+}
